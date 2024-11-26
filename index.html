@@ -1,446 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>HTML Project</title>
-</head>
-<body>
-    <!--Start Header-->
-    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f3971b">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <tr>
-                        <td>
-                            <font face="arial" color="#000000" size="5">
-                                <span class="fa fa-user-circle" aria-hidden="true"></span>
-                                Swapnil Wanode
-                            </font>
-                        </td>
-                        <td >
-                            &nbsp;
-                        </td>
-                        <td>
-                            <a href="#home"><font face="arial" color="#ffffff" size="4">Home</font></a>
-                        </td>
-                        <td>
-                            <a href="#about"><font face="arial" color="#ffffff" size="4">About</font></a>
-                        </td>
-                        <td>
-                            <a href="#services"><font face="arial" color="#ffffff" size="4">Services</font></a>
-                        </td>
-                        <td>
-                            <a href="#testimonial"><font face="arial" color="#ffffff" size="4">Testimonials</font></a>
-                        </td>
-                        <td>
-                            <a href="#achievements"><font face="arial" color="#ffffff" size="4">Achievements</font></a>
-                        </td>
-                        <td>
-                            <a href="#contact"><font face="arial" color="#ffffff" size="4">Contact</font></a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My portfolio website" />
+    <title>Swapnil Wanode - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        </tr>
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="intro">
+        <div>
+          <h1>Hi, I'm Swapnil Wanode</h1>
+          <p>Senior Software Engineer</p>
+        </div>
+        <img
+          src="swapnil resume  photo.png"
+          alt="Profile Photo"
+          class="profile-photo"
+        />
+      </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        With over 2 years of experience in web development and production
+        support, I have a strong background in collaborating with
+        cross-functional teams and adhering to agile methodologies. I am adept
+        at troubleshooting, debugging, and delivering exceptional client
+        support.
+      </p>
+    </section>
+    <hr />
 
-    </table>
-    <!--End Header-->
-    <!--Start Home-->
-    <table id="home" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <tr>
-                        <td align="center" valign="middle">
-                            <h3>
-                                <font face="arial" color="#ffffff" size="6">
-                                     Hi, I'm Swapnil Wanode
-                                </font>
-                            </h3>
-                        
-                        <h2>
-                            <font face="arial" color="#f3971b" size="7">
-                                Software Engineer
-                           </font>
-                        </h2>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul style="list-style-type: disc">
+        <li>Backend Technologies : Java, JDBC, Spring Boot.</li>
+        <li>Technologies : Html, CSS, JavaScript, Angular.</li>
+        <li>Databases : MySQL, MongoDB.</li>
+        <li>Version Control Systems : GitHub, Gitlab.</li>
+        <li>Rest Assured, API Testing. JIRA, Power Bi, Teamcenter.</li>
+      </ul>
+    </section>
+    <hr />
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Senior Software Engineer, Capgemini</h3>
+        <p><b>06/2022- Present</b></p>
+        <ul>
+          <li>Worked for analyzing the front-end and backend code.</li>
+          <li>
+            Utilized Oracle SQL to design queries, generate reports, and manage
+            data.
+          </li>
+          <li>Conducted code reviews and provided constructive feedback.</li>
+          <li>Validated and tested application functionalities..</li>
+          <li>
+            Worked on Application Incident Management, resolving user queries
+            and supporting web Applications
+          </li>
+          <li>
+            Explained technical information in clear terms to non-technical
+            individuals to promote better understanding
+          </li>
+          <li>
+            Created and managed tickets in ServiceNow, ensuring timely issue
+            resolution and handling customer escalations.
+          </li>
+          <li>
+            Created and maintained Standard Operating Procedures (SOPs) for new
+            issues and resolutions
+          </li>
+          <!-- <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li> -->
+        </ul>
+      </div>
+    </section>
+    <hr />
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Nutrition App</h3>
+        <p>
+          Built a web application for tracking daily food intake, including
+          calories, macronutrients (carbohydrates, proteins, fats), vitamins,
+          and minerals, to help users monitor and adjust their nutritional
+          intake according to their dietary goals. Technology Used :Java, Spring
+          Boot, Angular, SQL, and other technologies
+        </p>
+        <a href="https://github.com/Swapnil-Wanode/Nutrition-App-Angular.io"
+          >View Project</a
+        >
+      </div>
+      <div class="project">
+        <h3>Instagram Clone Database Analysis (MySQL)</h3>
+        <p>
+          Extracted actionable insights from large datasets using single row
+          function and group function. Implemented complex SQL queries involving
+          JOIN, GROUP BY, and HAVING clauses etc. to analyze user behavior and
+          engagement metrics etc
+        </p>
+        <a href="https://github.com/Swapnil-Wanode/MySQL-project-"
+          >View Project</a
+        >
+      </div>
+    </section>
+    <hr />
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Phone: 8668875093</label>
+        <!-- <input type="text" id="name" name="name" required /> -->
 
-        </tr>
+        <label for="email"
+          >Email:<a href="mailto: swapnilwanode1@gmail.com"
+            >swapnilwanode1@gmail.com</a
+          >
+        </label>
+        <!-- <input type="email" id="email" name="email" required /> -->
 
+        <!-- <label for="message">:</label> -->
+        <!-- <textarea id="message" name="message" required></textarea> -->
 
-    </table>
-    <!--End Home-->
+        <!-- <button type="submit">Send Message</button> -->
+      </form>
+      <div id="form-message"></div>
+    </section>
 
-    <!--Start About-->
-    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="2">
-                                <font face="arial" color="#f3971b" size="6">
-                                     About Me
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="30%">
-                            <img src="swapnilphoto.png" alt="Saurabh Shukla"  width="70%">
-                        </td>
-                        <td width="70%">
-                            <font face="arial" color="#ffffff" size="4">
-                                <h2>
-                                    I am a Software Engineer
-                                </h2>
-                                TO HAVE GROWTH ORIENTED AND CHALLENGING CAREER, WHERE I CAN CONTRIBUTE MY KNOWLEDGE AND SKILL TO THE ORGANISATION AND ENHANCE MY KNOWLEDGE AND EXPERIENCE THROUGH CONTINUOUS LEARNING AND TEAM WORK.                            </font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
+    <!-- <footer>
+      <p>&copy; 2024 Swapnil Wanode. All rights reserved.</p>
+    </footer> -->
 
-        </tr>
-
-
-    </table>
-    <!--End About-->
-
-    <!--Start Services-->
-    <table id="services" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="3">
-                                <font face="arial" color="#292929" size="6">
-                                     Services
-                                </font>
-                                <hr width="70" color="#292929">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="33%">
-                            <a href="service1.html"><img src="java image.png" alt="Service1"  width="100%" height="200"></a>
-                        </td>
-                        <td width="33%">
-                            <a href="service2.html"><img src="sql image.png" alt="Service1"  width="100%" height="200"></a>
-                        </td>
-                        <td width="33%">
-                            <a href="service3.html"><img src="html image.png" alt="Service1"  width="100%" height="200"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Services-->
-
-    <!--Start Testimonial-->
-    <table id="testimonial" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="3">
-                                <font face="arial" color="#f3971b" size="6">
-                                     Testimonial
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="33%" valign="top">
-                            <font face="arial" color="#ffffff">
-                                <h3 align="center">xyz</h3>
-                            </font>
-                            <font face="arial" color="#c2c0c3">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
-                            </font>
-                        </td>
-                        <td width="33%" valign="top">
-                            <font face="arial" color="#ffffff">
-                                <h3 align="center">xyz</h3>
-                            </font>
-                            <font face="arial" color="#c2c0c3">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
-                            </font>
-                        </td>
-                        <td width="33%" valign="top">
-                            <font face="arial" color="#ffffff">
-                                <h3 align="center">xyz</h3>
-                            </font>
-                            <font face="arial" color="#c2c0c3">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
-                            </font>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Testimonial-->
-
-    <!--Start Achievements-->
-    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="2">
-                                <font face="arial" color="#292929" size="6">
-                                     Achievements
-                                </font>
-                                <hr width="70" color="#292929">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="66%" valign="top">
-                           <font face="arial"color="#292929">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint nesciunt voluptates autem minima sed accusantium consequatur inventore nobis aspernatur?</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, non.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis excepturi ullam distinctio.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas vitae eveniet pariatur deleniti eius, mollitia fugiat.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, id!</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
-                            </ul>
-                           </font>
-                        </td>
-                        <td valign="top">
-                            <img src="images/Achievements.png" alt="Achievements"  width="90%">
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td>
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Achievements-->
-
-    <!--Start Contact-->
-    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="1">
-                                <font face="arial" color="#f3971b" size="6">
-                                     Contact
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td align="center" valign="top">
-                           <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center" bgcolor="#353535">
-                               <tr>
-                                   <td width="30%">
-                                       <font face="arial" size="4" color="#ffffff">
-                                           Name
-                                       </font>
-                                   </td>
-                                   <td width="70%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        <input type="text" size="40">
-                                    </font>
-                                    </td>
-                               </tr>
-                               <tr>
-                                <td width="30%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        Email
-                                    </font>
-                                </td>
-                                <td width="70%">
-                                 <font face="arial" size="4" color="#ffffff">
-                                     <input type="text" size="40">
-                                 </font>
-                                 </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        Message
-                                    </font>
-                                </td>
-                                <td width="70%">
-                                 <font face="arial" size="4" color="#ffffff">
-                                     <textarea rows="5" cols="42"></textarea>
-                                 </font>
-                                 </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-                                   &nbsp;
-                                </td>
-                                <td width="70%">
-                                    <button type="Submit">
-                                        <font face="arial" size="4" color="#292929">
-                                             Submit
-                                        </font>
-                                </button>
-                                 </td>
-                            </tr>
-                           </table>
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Contact-->
-
-    <!--Start Footer-->
-    <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                   
-                    <tr>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-facebook-square" aria-hidden="true"></span>
-                                Facebook
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-twitter-square" aria-hidden="true"></span>
-                                Twitter
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-instagram" aria-hidden="true"></span>
-                                Instagram
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-linkedin-square" aria-hidden="true"></span>
-                                Linkedin
-                            </font>
-                            
-                        </td>
-                        <td rowspan="2">
-                            <font face="arial" color="#ffffff" size="5">
-                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
-                             <a href="#header">
-                                <font face="arial" color="#ffffff" size="5">
-                                    Top
-                                </font>
-                                
-                            </a>
-                            </font>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-youtube-square" aria-hidden="true"></span>
-                                YouTube
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-rss-square" aria-hidden="true"></span>
-                                Blog
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-envelope-o" aria-hidden="true"></span>
-                                Email
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-globe" aria-hidden="true"></span>
-                                Website
-                            </font>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Footer-->
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
